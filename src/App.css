@@ -144,7 +144,11 @@
 
 .home-container {
   /* background-color: #dfe1e1c1 */
-  background: radial-gradient(45deg ,rgb(234, 123, 142),rgb(116, 116, 242))
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* dis */
+  /* background: radial-gradient(45deg ,rgb(234, 123, 142),rgb(116, 116, 242)) */
 }
 
 .Card2 {

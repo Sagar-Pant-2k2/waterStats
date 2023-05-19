@@ -1,5 +1,8 @@
 import Card3 from './Card3'
-import chakferiRiverImage from './images/ChakferiRiver.jpeg'
+import chakferiRiverImage from '../public/images/ChakferiRiver.jpeg'
+import beniRiverImage from '../public/images/BeniRiver.jpeg'
+import PerairuImage from '../public/images/PerairuRiver.jpeg'
+
 const WaterStreams = ()=>{
     console.log(chakferiRiverImage);
     return (<>
@@ -22,10 +25,10 @@ const WaterStreams = ()=>{
     
     <div className="Container">
 
-    <Card3 title={"Chakferi River"} src={chakferiRiverImage} />
+     <Card3 title={"Chakferi River"} src={'../images/ChakferiRiver.jpeg'} />
 
-    <Card3 title={"Beni River"} src={"/src/images/BeniRiver.jpeg"}/>
-    <Card3 title={"Perairu River"} src={"/src/images/PerairuRiver.jpeg"}/>
+    <Card3 title={"Beni River"} src={'../images/BeniRiver.jpeg'}/>
+    <Card3 title={"Perairu River"} src={'../images/PerairuRiver.jpeg'}/> 
     </div>
     </>)
 }

@@ -57,13 +57,13 @@ const Slider = () => {
   return (
     <div className="slideshow-container">
       <div className={`Slide ${currentSlide === 0 ? 'active' : ''}`}>
-        <img src="src\images\pantnagar-slider.jpeg" />
+        <img src="./images/pantnagar-slider.jpeg" />
       </div>
       <div className={`Slide ${currentSlide === 1 ? 'active' : ''}`}>
-        <img src="src\images\pantngarAerial.jpg"  />
+        <img src="./images/pantngarAerial.jpg"  />
       </div>
       <div className={`Slide ${currentSlide === 2 ? 'active' : ''}`}>
-        <img src="src\images\CotPantnagar.webp" alt="Slide 3" />
+        <img src="./images/CotPantnagar.webp" alt="Slide 3" />
       </div>
       
     </div>

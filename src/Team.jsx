@@ -7,9 +7,9 @@ const Team = ()=>{
         <div className="Container">
 
         
-        <Card3 title={"Dixa"} id={"ID : 54829"} src={"/src/images/ProfilePic.png"}></Card3>
-        <Card3 title={"Harshita Martolia"} id={"ID : 54832"} src={"/src/images/ProfilePic.png"}></Card3>
-        <Card3 title={"Sunil Chand I'd "} id={"ID : 56645"} src={"/src/images/ProfilePic.png"}></Card3>
+        <Card3 title={"Dixa"} id={"ID : 54829"} src={"../public/images/ProfilePic.png"}></Card3>
+        <Card3 title={"Harshita Martolia"} id={"ID : 54832"} src={"../public/images/ProfilePic.png"}></Card3>
+        <Card3 title={"Sunil Chand I'd "} id={"ID : 56645"} src={"../public/images/ProfilePic.png"}></Card3>
         </div>
     </div>)
 }

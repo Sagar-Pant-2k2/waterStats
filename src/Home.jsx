@@ -12,7 +12,7 @@ const Home = ()=>{
 We would like to express our sincere gratitude to our esteemed project advisor, Dr. Jyothi Prasad, for their invaluable guidance and support throughout the duration of this project.
             </p>
 <p>
-<Card3/>
+<Card3 title={"Dr. Jyothi Prasad"} src={"../images/Proff.jpeg"}/>
     
 Dr. Jyothi Prasad is a distinguished expert in the field of Hydrology-Watershed Management, Irrigation Management and has played a pivotal role in shaping the direction and success of our research. Their extensive knowledge, experience, and passion for the subject matter have been instrumental in enriching our understanding of artesian wells.
 </p>
