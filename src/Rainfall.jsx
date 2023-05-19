@@ -1,14 +1,20 @@
 const Rainfall = ()=>{
     return (<>
     <h1>Rainfall Data Of Pantnagar</h1>
+    <hr style={{ border: 'none', borderTop: '1px solid #000', backgroundColor: '#000', height: '1px', width: '100%' }} />
+
     <p>
+
+    Rainfall data serves various purposes and is used in different fields and industries. Here are some common uses of rainfall data:
         <div className="Container">
 
-    Rainfall data serves various purposes and is used in different fields and industries. Here are some common uses of rainfall data:<br></br><br></br>
-
-Weather Forecasting and Meteorology: Rainfall data plays a crucial role in weather forecasting and meteorological studies. By analyzing historical rainfall patterns and current data, meteorologists can predict and forecast rainfall events, including the timing, intensity, and duration of rainfall. This information helps in issuing weather warnings, planning outdoor activities, and managing potential impacts such as floods or droughts.
+<h2>
+  Weather Forecasting and Meteorology
+</h2>
+ Rainfall data plays a crucial role in weather forecasting and meteorological studies. By analyzing historical rainfall patterns and current data, meteorologists can predict and forecast rainfall events, including the timing, intensity, and duration of rainfall. This information helps in issuing weather warnings, planning outdoor activities, and managing potential impacts such as floods or droughts.
 <br></br><br></br>
-Agriculture and Farming: Farmers rely on rainfall data to make informed decisions about crop planting, irrigation, and water management. By monitoring rainfall patterns and understanding seasonal variations, farmers can optimize their agricultural practices, determine irrigation schedules, and assess water availability for crops and livestock.
+<h2>Agriculture and Farming</h2>
+ Farmers rely on rainfall data to make informed decisions about crop planting, irrigation, and water management. By monitoring rainfall patterns and understanding seasonal variations, farmers can optimize their agricultural practices, determine irrigation schedules, and assess water availability for crops and livestock.
 <br></br><br></br>
 Water Resource Management: Rainfall data is vital for managing water resources, including rivers, lakes, reservoirs, and groundwater. It helps in assessing water availability, monitoring water levels, and predicting potential water shortages or excesses. This data aids in planning water allocation, implementing water conservation measures, and ensuring sustainable water management practices.
 <br></br><br></br>
@@ -23,6 +29,8 @@ Research and Education: Rainfall data serves as a valuable resource for scientif
     </p>
     <div className="Container">
         <h2>AVERAGE RAINFALL DATA 1982 TO 2022</h2>
+        <hr style={{ border: 'none', borderTop: '1px solid #000', backgroundColor: '#000', height: '1px', width: '100%' }} />
+
         <br></br>
         <table class="rainfall-table">
   <thead>
@@ -86,6 +94,7 @@ Research and Education: Rainfall data serves as a valuable resource for scientif
     </tr>
   </tbody>
 </table>
+<hr style={{ border: 'none', borderTop: '1px solid #000', backgroundColor: '#000', height: '1px', width: '100%' }} />
 
 
 
