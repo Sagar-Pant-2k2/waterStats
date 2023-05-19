@@ -17,16 +17,9 @@ function App() {
 
   return (
    <>
-    <Nav/>
 
-    {/* <Rainfall /> */}
-    
-    {/* <Home /> */}
-    
-    {/* <WaterStreams/> */}
-    {/* <ArtesianWells /> */}
-    {/* <Team></Team> */}
     <BrowserRouter>
+    <Nav/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/team' element={<Team/>}/>
