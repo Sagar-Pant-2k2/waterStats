@@ -1,0 +1,302 @@
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#root{
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.Nav{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 2px;
+  width: 100%;
+  flex-direction: row;
+  background-color: rgb(56, 67, 123);
+  color: white;
+}
+.NavItem {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  height: 100%;
+  /* margin-left :10px */
+  padding: 5px;
+}
+.NavItem:hover {
+  /* background-color: blueviolet;
+  /* background-color: blueviolet; */ 
+  background-color: blue;
+  color: black;
+}
+
+
+.button{
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background: #78d45f;
+  font-size: larger;
+  border: none;
+}
+.button:hover{
+
+  color: rgb(10, 10, 10);
+  background: #f6f6f6;
+
+}
+.Card iframe{
+  width: 100%;
+  height: 75%;
+}
+.Card{
+  overflow: hidden;
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  background: linear-gradient(to right,rgb(88, 132, 191),rgb(190, 96, 214));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin: 5px;
+}
+.Container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Slide.active {
+  display: block;
+}
+
+.Slide img {
+  width: 100%;
+  height: 80%;
+  /* object-fit: cover; */
+}
+
+
+
+.home-container {
+  /* background-color: #dfe1e1c1 */
+  background: radial-gradient(45deg ,rgb(234, 123, 142),rgb(116, 116, 242))
+}
+
+.Card2 {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.Card2:hover {
+  transform: scale(1.05);
+}
+
+.Card2 h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.Card2 button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Card2 button:hover {
+  background-color: #45a049;
+}
+
+
+
+.Card3 {
+  overflow: hidden;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(to right,rgb(88, 132, 191),rgb(190, 96, 214));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin: 5px;
+}
+
+.Card3 img {
+  width: 100%;
+  height: 75%;
+  margin-bottom: 16px;
+}
+
+.Card3 .content {
+  font-size: 18px;
+}
+
+
+/* .rainfall-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rainfall-table th,
+.rainfall-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.rainfall-table thead {
+  background-color: #f2f2f2;
+}
+
+.rainfall-table tbody tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+.rainfall-table th {
+  font-weight: bold;
+  color: #333;
+}
+
+.rainfall-table td {
+  color: #555;
+}
+
+.rainfall-table th,
+.rainfall-table td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.rainfall-table th,
+.rainfall-table td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+} */
+
+  .artesianImg{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .rainfall-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .rainfall-table th,
+  .rainfall-table td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .rainfall-table thead {
+    background-color: #f2f2f2;
+  }
+
+  .rainfall-table tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+  }
+
+  .rainfall-table th {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .rainfall-table td {
+    color: #555;
+  }
+
+  .rainfall-table th,
+  .rainfall-table td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .rainfall-table th,
+  .rainfall-table td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

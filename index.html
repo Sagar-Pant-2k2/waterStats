@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script>
+      document.querySelector("#Flip").addEventListener('click',()=>{
+        flipper();
+         console.log("wtf");
+      })
+      const flipper = ()=>{
+        document.querySelector('body').style.backgroundColor="black";
+      }
+    </script>
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  // Your slideshow code here
+  
+  const slides = document.querySelectorAll('.Slide');
+  console.log(slides);
+
+      let currentSlide = 0;
+      
+      function showSlide() {
+        slides.forEach(slide => slide.style.display = 'none');
+        slides[currentSlide].style.display = 'block';
+        currentSlide = (currentSlide + 1) % slides.length;
+      }
+      
+      setInterval(showSlide, 3000); // Change slide every 3 seconds
+    });
+
+    </script> -->
+  </head>
+  <body>
+    <!-- <button id="Flip">flip Color</button> -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
