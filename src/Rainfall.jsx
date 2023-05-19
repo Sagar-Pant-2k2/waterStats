@@ -22,7 +22,7 @@ Research and Education: Rainfall data serves as a valuable resource for scientif
         </div>
     </p>
     <div className="Container">
-        <h2>AVERAGE OF RAINFALL DATA 1982 TO 2022</h2>
+        <h2>AVERAGE RAINFALL DATA 1982 TO 2022</h2>
         <br></br>
         <table class="rainfall-table">
   <thead>
