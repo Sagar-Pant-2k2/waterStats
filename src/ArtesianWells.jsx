@@ -36,7 +36,7 @@ While artesian wells offer many advantages, it is crucial to manage them respons
         </p>
         <div className="artesianImg">
 
-        <img src="src/images/artesianWell.jpg" alt="can't load" />
+        <img src="../images/artesianWell.jpg" alt="can't load" />
         </div>
         </div>
 
