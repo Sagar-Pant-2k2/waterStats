@@ -1,4 +1,5 @@
 import Card from "./Cards";
+import ModalWindow from "./Modal";
 const sources = ["https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2494.563349960718!2d79.48553562067704!3d29.01847546195178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDAxJzA2LjYiTiA3OcKwMjknMTQuNiJF!5e1!3m2!1sen!2sin!4v1679546820917!5m2!1sen!2sin", 
      
 "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d8347.851100255111!2d79.48008735098306!3d29.014455646618586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDAwJzUxLjUiTiA3OcKwMjknMDguOSJF!5e1!3m2!1sen!2sin!4v1681036518504!5m2!1sen!2sin", 
@@ -148,9 +149,10 @@ const Data = [
 ]
 
 
-const ArtesianWells = ()=>{
+const ArtesianWells = ({openModal,closeModal})=>{
   let i=0;
     return (<div className="ArtesianWells">
+      
         <div className="Container">
 
         <h1>Artesian Wells</h1>
@@ -832,7 +834,7 @@ While artesian wells offer many advantages, it is crucial to manage them respons
 
 {
 sources.map(item=>{
-  return <Card src={item} info={Data[i++]}></Card>
+  return <Card src={item} info={Data[i++]} openModal={openModal} closeModal={closeModal}></Card>
 })}
 
 

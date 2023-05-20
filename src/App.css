@@ -72,19 +72,20 @@
 }
 
 
-.button{
+button{
   width: 100px;
   height: 50px;
   border-radius: 15px;
-  color: white;
-  background: #78d45f;
+  background-color: #4caf50;
+  color: #fff;
   font-size: larger;
   border: none;
 }
-.button:hover{
+button:hover{
 
-  color: rgb(10, 10, 10);
-  background: #f6f6f6;
+  color: blue;
+  background-color: rgb(247, 237, 237);
+
 
 }
 .Card iframe{
@@ -319,3 +320,18 @@
     justify-content: center;
     flex-direction: column;
   }
+
+  .ModalWindow {
+    background-color: #cfe1d098;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    
+  }
+  .disable-scroll {
+      overflow: hidden;
+    }

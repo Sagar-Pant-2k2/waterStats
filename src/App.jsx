@@ -11,19 +11,26 @@ import Rainfall from './Rainfall'
 import ArtesianWells from './ArtesianWells'
 import Team from './Team'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import ModalWindow from './Modal'
 function App() {
 
-  const [count, setCount] = useState(0)
+  const [display, setDisplay] = useState("none");
+  const openModal = ()=>{
+    setDisplay("flex");
+  }
+  const closeModal = ()=>{
+    setDisplay("none");
+  }
 
   return (
    <>
-
+    <ModalWindow display={display} closeModal={closeModal}/>
     <BrowserRouter>
     <Nav/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/team' element={<Team/>}/>
-      <Route path='/artesian' element={<ArtesianWells/>}/>
+      <Route path='/artesian' element={<ArtesianWells openModal={openModal} closeModal={closeModal}/>}/>
       <Route path='/rainfall' element={<Rainfall/>}/>
       <Route path='/water' element={<WaterStreams/>}/>
     </Routes>
