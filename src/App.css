@@ -336,3 +336,26 @@ button:hover{
   /* .disable-scroll {
       overflow: hidden;
     } */
+  .ModalOverlay {
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0; */
+  /* transform: scale(0); */
+  /* transition: opacity 0.3s ease, transform 0.3s ease; */
+  }
+
+  .ModalContainer{
+  background-color: rgb(56, 67, 123);
+  color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
