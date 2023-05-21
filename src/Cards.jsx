@@ -9,75 +9,75 @@ const Modal = ({setCount,data})=>{
             <div class="table-container">
   <div class="table-row">
     <div class="table-header">Sample No.</div>
-    <div class="table-data">1</div>
+    <div class="table-data">{data[0]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Well Name</div>
-    <div class="table-data">CRC-1st</div>
+    <div class="table-data">{data[1]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">pH</div>
-    <div class="table-data">6.5</div>
+    <div class="table-data">{data[2]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">EC</div>
-    <div class="table-data">425</div>
+    <div class="table-data">{data[3]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">TDS</div>
-    <div class="table-data">220</div>
+    <div class="table-data">{data[4]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">TH</div>
-    <div class="table-data">212</div>
+    <div class="table-data">{data[5]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Ca++</div>
-    <div class="table-data">76.4</div>
+    <div class="table-data">{data[6]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Mg</div>
-    <div class="table-data">136.1</div>
+    <div class="table-data">{data[7]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Na</div>
-    <div class="table-data">21</div>
+    <div class="table-data">{data[8]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">K'</div>
-    <div class="table-data">4</div>
+    <div class="table-data">{data[9]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Acidity</div>
-    <div class="table-data">12.5</div>
+    <div class="table-data">{data[10]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">Alkalinity</div>
-    <div class="table-data">125</div>
+    <div class="table-data">{data[11]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">HCO3</div>
-    <div class="table-data">305</div>
+    <div class="table-data">{data[12]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">cr</div>
-    <div class="table-data">15.6</div>
+    <div class="table-data">{data[13]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">F</div>
-    <div class="table-data">0.4</div>
+    <div class="table-data">{data[14]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">NO3-</div>
-    <div class="table-data">0.9</div>
+    <div class="table-data">{data[15]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">CO2</div>
-    <div class="table-data">12.4</div>
+    <div class="table-data">{data[16]}</div>
   </div>
   <div class="table-row">
     <div class="table-header">SO4</div>
-    <div class="table-data">40</div>
+    <div class="table-data">{data[17]}</div>
   </div>
   {/* <!-- Add more rows for the remaining data --> */}
 </div>
