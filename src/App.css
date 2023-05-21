@@ -228,6 +228,7 @@ button:hover{
 }
 
 
+
 /* .rainfall-table {
   width: 100%;
   border-collapse: collapse;
@@ -275,7 +276,8 @@ button:hover{
   }
   .rainfall-table {
     margin-top: 20px;
-    width: 100%;
+    width: 100vh;
+    overflow-x: scroll;
     border-collapse: collapse;
   }
 
@@ -338,6 +340,7 @@ button:hover{
     } */
   .ModalOverlay {
       position: fixed;
+      padding: 5px;
   top: 0;
   left: 0;
   width: 100vw;
@@ -361,9 +364,16 @@ button:hover{
     align-items: center;
     justify-content: center;
   }
+  
+  @media (max-width: 600px) {
+    .ModalContainer {
+      width: 90%;
+    }
+  }
+  
 
    .table-container {
-    height: 200px;
+    height: 100px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -378,7 +388,7 @@ button:hover{
     align-items: center;
   }
   .ModalContainer img {
-    max-width: 100vw;
+    max-width: 100%;
     height: 400px;
   }
   

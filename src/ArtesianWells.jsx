@@ -80,37 +80,7 @@ const sources = ["https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2494.563
 
 "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13666.888864411174!2d79.48254523127666!3d29.004599716357852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDAwJzE2LjYiTiA3OcKwMjknMjguNyJF!5e1!3m2!1sen!2sin!4v1681039579963!5m2!1sen!2sin"]
 
-const ImgSources = [
-  "../images/1.jpeg",
-  "../images/2.jpeg",
-  "../images/3.jpeg",
-  "../images/4.jpeg",
-  "../images/5.jpeg",
-  "../images/6.jpeg",
-  "../images/7.jpeg",
-  "../images/8.jpeg",
-  "../images/9.jpeg",
-  "../images/10.jpeg",
-  "../images/11.jpeg",
-  "../images/12.jpeg",
-  "../images/13.jpeg",
-  "../images/14.jpeg",
-  "../images/15.jpeg",
-  "../images/16.jpeg",
-  "../images/17.jpeg",
-  "../images/18.jpeg",
-  "../images/19.jpeg",
-  "../images/20.jpeg",
-  "../images/21.jpeg",
-  "../images/22.jpeg",
-  "../images/23.jpeg",
-  "../images/24.jpeg",
-  "../images/25.jpeg",
-  "../images/26.jpeg",
-  "../images/27.jpeg",
-  "../images/28.jpeg",
-  "../images/29.jpeg",
-  "../images/30.jpeg"]
+
  
   
 

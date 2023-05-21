@@ -5,7 +5,7 @@ const Modal = ({setCount,data})=>{
     return (<div className="ModalOverlay">
         <div className="ModalContainer">
             <img src={`../images/${data[0]}.jpeg`}></img>
-            <h1>this is compo</h1>
+            <center><h2>Well Data</h2></center>
             <div class="table-container">
   <div class="table-row">
     <div class="table-header">Sample No.</div>
