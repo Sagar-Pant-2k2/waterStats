@@ -274,11 +274,20 @@ button:hover{
     max-height: 100%;
     overflow: hidden;
   }
+
+  .ArtesianWells {
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+
+  .tableContainer {
+    max-width: 100vw;
+    overflow: auto;
+  }
+
   .rainfall-table {
+    width: 100%;
     margin-top: 20px;
-    width: 100vh;
-    overflow-x: scroll;
-    border-collapse: collapse;
   }
 
   .rainfall-table th,
@@ -328,16 +337,16 @@ button:hover{
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
   }
-  /* .disable-scroll {
+  .disable-scroll {
       overflow: hidden;
-    } */
+    }
   .ModalOverlay {
       position: fixed;
       padding: 5px;
@@ -363,6 +372,10 @@ button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .ModalContainer button {
+    margin: 5px;
   }
   
   @media (max-width: 600px) {
