@@ -13,7 +13,7 @@ We would like to express our sincere gratitude to our esteemed project advisor, 
             </p>
 <p>
     <div className="Container">
-<Card3 title={"Dr. Jyothi Prasad"} src={"../images/Proff.jpeg"} desig={"designation"}/>
+<Card3 title={"Dr. Jyothi Prasad"} src={"../images/Professor.jpeg"} desig={"Professor"}/>
     </div>
     
 Dr. Jyothi Prasad is a distinguished expert in the field of Hydrology-Watershed Management, Irrigation Management and has played a pivotal role in shaping the direction and success of our research. Their extensive knowledge, experience, and passion for the subject matter have been instrumental in enriching our understanding of artesian wells.

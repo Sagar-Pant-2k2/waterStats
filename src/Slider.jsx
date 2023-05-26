@@ -48,7 +48,7 @@ const Slider = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % 3); // Assuming there are 3 slides
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % 4); // Assuming there are 3 slides
     }, 3000);
 
     return () => clearInterval(interval);
@@ -57,14 +57,18 @@ const Slider = () => {
   return (
     <div className="slideshow-container">
       <div className={`Slide ${currentSlide === 0 ? 'active' : ''}`}>
-        <img src="./images/pantnagar-slider.jpeg" />
+        <img src="./images/cot.jpg" alt="Slide 1" />
       </div>
       <div className={`Slide ${currentSlide === 1 ? 'active' : ''}`}>
-        <img src="./images/pantngarAerial.jpg"  />
+        <img src="./images/pantnagar-slider.jpeg" />
       </div>
       <div className={`Slide ${currentSlide === 2 ? 'active' : ''}`}>
+        <img src="./images/pantngarAerial.jpg"  />
+      </div>
+      <div className={`Slide ${currentSlide === 3 ? 'active' : ''}`}>
         <img src="./images/CotPantnagar.webp" alt="Slide 3" />
       </div>
+      
       
     </div>
   );
