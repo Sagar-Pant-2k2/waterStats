@@ -17,7 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         // background: rgb(27,215,124);
 // background: 'linear-gradient(to top right, rgba(27,215,124,1) 0%, rgba(60,157,215,1) 13%, rgba(13,185,221,1) 55%, rgba(0,255,171,1) 96%)',
 
-background: 'linear-gradient(to top right, rgba(27,215,124,1) 0%, rgba(31,141,207,1) 0%, rgba(13,185,221,1) 30%, rgba(0,255,171,1) 94%)',
+// background: 'linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D)',
+background: 'linear-gradient(120deg,#414B56,#00A2E1)',
 
 
 
