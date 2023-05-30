@@ -40,7 +40,60 @@ Once again, we extend our heartfelt thanks to Dr. Jyothi Prasad for their invalu
 
         <h1>About Project</h1>
         <p> 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dicta numquam officiis ea iste corporis, alias atque dolorem ipsum praesentium, ex quo neque debitis vero autem. Voluptas at rem sed magnam, hic ipsam explicabo saepe provident quia soluta, vitae ratione nemo est expedita tempora doloribus ipsa eos debitis ex excepturi. Atque veritatis fuga perspiciatis autem? Alias aut sapiente blanditiis quisquam autem, eaque architecto itaque sequi at, quae quo? Quibusdam magni unde minima facere ea minus non corrupti dicta commodi officia debitis dolor pariatur quos totam laborum officiis odio impedit suscipit maxime delectus, ad tempore deleniti nostrum iste? Quos, praesentium facilis?
+            <p>
+                
+        The project focused on a detailed investigation of the water resources in Pantnagar, specifically 30 artesian wells and three streams. The main objectives were to conduct field visits to these sites, utilize <b>QGIS</b> software to map their locations, and analyze the rainfall pattern in Pantnagar from 1990 to 2020.
+            </p>
+<p>
+
+During the project, the team conducted visits to the 30 artesian wells and three streams in Pantnagar to gather first-hand information about their conditions, characteristics, and surroundings. These field visits provided valuable insights into the local hydrological features and the availability of water resources in the area.
+</p>
+<p>
+
+Using <b>QGIS</b> software, the project team created a comprehensive map that displayed the precise locations of the artesian wells and streams. Each water source was accurately marked with distinct symbols or colors on the map, allowing for easy visualization and analysis of their distribution across Pantnagar.
+</p>
+<p>
+    
+To study the rainfall pattern, historical rainfall data from 1990 to 2020 was collected from reliable sources such as meteorological departments or research institutions. The data was processed and analyzed using statistical methods to identify trends, seasonal variations, and any significant patterns that emerged over the 30-year period.
+</p>
+<p>
+
+By examining the rainfall data, the project team gained insights into the long-term precipitation patterns in Pantnagar. The analysis helped determine average annual rainfall, seasonal distribution, and any notable changes or trends in rainfall over the study period. This information is crucial for effective water resource management, planning, and decision-making in the region.
+</p>
+<p>
+
+The project's findings, including the detailed map created with <b>QGIS</b> software and the analysis of rainfall patterns, served as valuable resources for further research and development. The data and insights obtained from the project can be used by local authorities, hydrologists, and environmental scientists to assess the availability and sustainability of water resources, implement appropriate water management strategies, and plan for future water demands based on the observed rainfall patterns.
+</p>
+<p>
+
+Overall, the project contributed to a comprehensive understanding of Pantnagar's water resources by combining field visits, geospatial analysis, and rainfall pattern studies. The information generated will assist in making informed decisions and developing sustainable water management practices in the region.The project focused on a detailed investigation of the water resources in Pantnagar, specifically 30 artesian wells and three streams. The main objectives were to conduct field visits to these sites, utilize <b><b>QGIS</b></b> software to map their locations, and analyze the rainfall pattern in Pantnagar from 1990 to 2020.
+</p>
+<p>
+
+During the project, the team conducted visits to the 30 artesian wells and three streams in Pantnagar to gather first-hand information about their conditions, characteristics, and surroundings. These field visits provided valuable insights into the local hydrological features and the availability of water resources in the area.
+</p>
+<p>
+
+Using <b>QGIS</b> software, the project team created a comprehensive map that displayed the precise locations of the artesian wells and streams. Each water source was accurately marked with distinct symbols or colors on the map, allowing for easy visualization and analysis of their distribution across Pantnagar.
+</p>
+<p>
+
+To study the rainfall pattern, historical rainfall data from 1990 to 2020 was collected from reliable sources such as meteorological departments or research institutions. The data was processed and analyzed using statistical methods to identify trends, seasonal variations, and any significant patterns that emerged over the 30-year period.
+</p>
+
+<p>
+
+By examining the rainfall data, the project team gained insights into the long-term precipitation patterns in Pantnagar. The analysis helped determine average annual rainfall, seasonal distribution, and any notable changes or trends in rainfall over the study period. This information is crucial for effective water resource management, planning, and decision-making in the region.
+</p>
+
+<p>
+
+The project's findings, including the detailed map created with <b>QGIS</b> software and the analysis of rainfall patterns, served as valuable resources for further research and development. The data and insights obtained from the project can be used by local authorities, hydrologists, and environmental scientists to assess the availability and sustainability of water resources, implement appropriate water management strategies, and plan for future water demands based on the observed rainfall patterns.
+</p>
+<p>
+
+Overall, the project contributed to a comprehensive understanding of Pantnagar's water resources by combining field visits, geospatial analysis, and rainfall pattern studies. The information generated will assist in making informed decisions and developing sustainable water management practices in the region.
+</p>
         </p>
         {/* <hr widt></hr> */}
         <Card2 title={"Artesian Wells"} data={1}/>
