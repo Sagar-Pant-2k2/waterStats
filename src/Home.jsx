@@ -44,7 +44,7 @@ Once again, we extend our heartfelt thanks to Dr. Jyothi Prasad for their invalu
                 
         The project focused on a detailed investigation of the water resources in Pantnagar, specifically 30 artesian wells and three streams. The main objectives were to conduct field visits to these sites, utilize <b>QGIS</b> software to map their locations, and analyze the rainfall pattern in Pantnagar from 1990 to 2020.
             </p>
-<p>
+{/* <p>
 
 During the project, the team conducted visits to the 30 artesian wells and three streams in Pantnagar to gather first-hand information about their conditions, characteristics, and surroundings. These field visits provided valuable insights into the local hydrological features and the availability of water resources in the area.
 </p>
@@ -63,8 +63,8 @@ By examining the rainfall data, the project team gained insights into the long-t
 <p>
 
 The project's findings, including the detailed map created with <b>QGIS</b> software and the analysis of rainfall patterns, served as valuable resources for further research and development. The data and insights obtained from the project can be used by local authorities, hydrologists, and environmental scientists to assess the availability and sustainability of water resources, implement appropriate water management strategies, and plan for future water demands based on the observed rainfall patterns.
-</p>
-<p>
+</p> */}
+{/* <p>
 
 Overall, the project contributed to a comprehensive understanding of Pantnagar's water resources by combining field visits, geospatial analysis, and rainfall pattern studies. The information generated will assist in making informed decisions and developing sustainable water management practices in the region.The project focused on a detailed investigation of the water resources in Pantnagar, specifically 30 artesian wells and three streams. The main objectives were to conduct field visits to these sites, utilize <b><b>QGIS</b></b> software to map their locations, and analyze the rainfall pattern in Pantnagar from 1990 to 2020.
 </p>
@@ -74,8 +74,8 @@ During the project, the team conducted visits to the 30 artesian wells and three
 </p>
 <p>
 
-Using <b>QGIS</b> software, the project team created a comprehensive map that displayed the precise locations of the artesian wells and streams. Each water source was accurately marked with distinct symbols or colors on the map, allowing for easy visualization and analysis of their distribution across Pantnagar.
-</p>
+Using <b>QGIS</b> software, the project team created a comprehensive map that displayed the precise locations of the artesian wells and streams. Each water source was accurately marked with distinct symbols or colors on the map, allowing for easy visualization and analysis of their distribution across Pantnagar. */}
+{/* </p>
 <p>
 
 To study the rainfall pattern, historical rainfall data from 1990 to 2020 was collected from reliable sources such as meteorological departments or research institutions. The data was processed and analyzed using statistical methods to identify trends, seasonal variations, and any significant patterns that emerged over the 30-year period.
@@ -89,7 +89,7 @@ By examining the rainfall data, the project team gained insights into the long-t
 <p>
 
 The project's findings, including the detailed map created with <b>QGIS</b> software and the analysis of rainfall patterns, served as valuable resources for further research and development. The data and insights obtained from the project can be used by local authorities, hydrologists, and environmental scientists to assess the availability and sustainability of water resources, implement appropriate water management strategies, and plan for future water demands based on the observed rainfall patterns.
-</p>
+</p> */}
 <p>
 
 Overall, the project contributed to a comprehensive understanding of Pantnagar's water resources by combining field visits, geospatial analysis, and rainfall pattern studies. The information generated will assist in making informed decisions and developing sustainable water management practices in the region.
