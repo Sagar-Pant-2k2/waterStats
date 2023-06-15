@@ -826,6 +826,7 @@ Undertaking a project to visit 30 artesian wells and 3 streams in Pantnagar, and
           </tbody>
         </table>
 </div>
+<h3 align="center">All values are in mg/l except EC in µs and ph in number</h3>
       
 
 <h1 style={{margin:"20px"}}>Locations of All Artesian Wells in Pantnagar</h1>
