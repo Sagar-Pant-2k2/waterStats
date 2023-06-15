@@ -151,7 +151,7 @@ Benefits and Utilization:
 </h2>
 Artesian wells provide numerous benefits to both human and natural systems. Their reliable water supply is often of superior quality, free from contaminants found in surface water sources. Communities and industries rely on artesian wells for drinking water, irrigation, industrial processes, and maintaining ecological habitats. Artesian wells also contribute to sustainable water management, reducing energy consumption associated with pumping.
 
-<h2>
+{/* <h2>
 
 Challenges:
 </h2>
@@ -180,7 +180,7 @@ Undertaking a project to visit 30 artesian wells and 3 streams in Pantnagar, and
      <br>
      </br>
      Addressing these challenges will require careful planning, collaboration with experts, and thorough data collection. By considering these factors, your project can provide valuable insights into the portability of artesian wells, contributing to a better understanding of their potential uses and limitations.
-</p>
+</p> */}
         </p>
         <div className="artesianImg">
 
